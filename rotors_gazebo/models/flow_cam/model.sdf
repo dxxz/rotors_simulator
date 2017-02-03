@@ -45,7 +45,11 @@
             <stddev>0.001</stddev>
           </noise>
         </camera>
+<<<<<<< HEAD
         <plugin name="opticalflow_plugin" filename="librotors_gazebo_optical_flow_plugin.so">
+=======
+        <plugin name="opticalflow_plugin" filename="libgazebo_opticalFlow_plugin.so">
+>>>>>>> feature/px4_merge_2
             <robotNamespace></robotNamespace>
         </plugin>
       </sensor>
